@@ -9,7 +9,11 @@ export function AboutSection() {
         <div className="flex flex-col md:flex-row gap-8 items-center">
           <div className="md:w-1/3">
             <div className="aspect-square rounded-full bg-accent/10 flex items-center justify-center overflow-hidden">
-              <div className="text-6xl font-bold text-accent">S</div>
+              <img 
+                src="/lovable-uploads/58c92fac-cef5-4ec4-a0f4-50c1a39c8d06.png" 
+                alt="Sreyas S"
+                className="w-full h-full object-cover"
+              />
             </div>
           </div>
           <Card className="md:w-2/3">
