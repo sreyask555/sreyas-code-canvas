@@ -11,7 +11,7 @@ export function HeroSection() {
           <h1 className="text-4xl md:text-6xl font-bold mt-3 opacity-0 animate-fade-in animation-delay-200">
             Sreyas S
           </h1>
-          <h2 className="text-2xl md:text-3xl text-muted-foreground font-light mt-2 opacity-0 animate-fade-in animation-delay-300">
+          <h2 className="text-2xl md:text-3xl text-foreground/80 font-light mt-2 opacity-0 animate-fade-in animation-delay-300">
             Software Developer + DevOps Engineer
           </h2>
           <p className="text-xl md:text-2xl mt-6 opacity-0 animate-fade-in animation-delay-400">
