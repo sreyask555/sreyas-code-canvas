@@ -12,7 +12,7 @@ export function HeroSection() {
             Sreyas S
           </h1>
           <h2 className="text-2xl md:text-3xl text-foreground/80 font-light mt-2 opacity-0 animate-fade-in animation-delay-300">
-            Software Developer + DevOps Engineer
+            <span className="font-bold text-foreground">Software Developer</span> + <span className="font-bold text-foreground">DevOps Engineer</span>
           </h2>
           <p className="text-xl md:text-2xl mt-6 opacity-0 animate-fade-in animation-delay-400">
             Crafting Scalable Code & Reliable Infrastructure.
