@@ -10,9 +10,6 @@ export function Footer() {
             © {new Date().getFullYear()} Sreyas S. All rights reserved.
           </div>
           <div className="flex items-center mt-4 md:mt-0">
-            <div className="text-sm text-muted-foreground mr-2">
-              Toggle Theme
-            </div>
             <ThemeToggle />
           </div>
         </div>

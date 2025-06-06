@@ -14,15 +14,17 @@ export function AboutSection() {
           </div>
           <Card className="md:w-2/3">
             <CardContent className="pt-6">
-              <p className="text-lg mb-4">
-                I'm a passionate Software Developer and DevOps Engineer with extensive experience in building robust applications and optimizing infrastructure for scalability and reliability.
-              </p>
-              <p className="text-lg mb-4">
-                With a strong foundation in both development and operations, I bridge the gap between writing code and deploying it effectively. My approach combines technical expertise with a deep understanding of business needs to deliver solutions that are not just functional, but also maintainable and future-proof.
-              </p>
-              <p className="text-lg">
-                I'm constantly exploring new technologies and methodologies to enhance my skillset and bring innovative solutions to complex problems. When I'm not coding or configuring servers, you'll find me contributing to open-source projects and sharing knowledge with the tech community.
-              </p>
+              <div className="space-y-6">
+                <p className="text-xl leading-relaxed font-light text-foreground/90">
+                  I'm a passionate <span className="font-medium text-accent">Software Developer</span> and <span className="font-medium text-accent">DevOps Engineer</span> with extensive experience in building robust applications and optimizing infrastructure for scalability and reliability.
+                </p>
+                <p className="text-lg leading-relaxed text-muted-foreground">
+                  With a strong foundation in both development and operations, I bridge the gap between writing code and deploying it effectively. My approach combines technical expertise with a deep understanding of business needs to deliver solutions that are not just functional, but also maintainable and future-proof.
+                </p>
+                <p className="text-lg leading-relaxed text-muted-foreground">
+                  I'm constantly exploring new technologies and methodologies to enhance my skillset and bring innovative solutions to complex problems. When I'm not coding or configuring servers, you'll find me contributing to open-source projects and sharing knowledge with the tech community.
+                </p>
+              </div>
             </CardContent>
           </Card>
         </div>

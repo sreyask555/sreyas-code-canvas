@@ -49,7 +49,7 @@ export function Navbar() {
       scrolled ? "bg-background/80 backdrop-blur-lg shadow-sm" : "bg-transparent"
     )}>
       <div className="container mx-auto flex items-center justify-between py-4">
-        <div className="text-lg font-semibold">Sreyas<span className="text-accent">.</span></div>
+        <div className="text-lg font-semibold">Sreyas<span className="text-foreground">.</span></div>
         
         <div className="hidden md:flex items-center space-x-1">
           {navItems.map((item) => (
@@ -59,7 +59,7 @@ export function Navbar() {
               className={cn(
                 "px-3 py-2 rounded-md text-sm font-medium transition-colors",
                 activeSection === item.id
-                  ? "text-accent"
+                  ? "text-foreground font-semibold"
                   : "text-muted-foreground hover:text-foreground"
               )}
             >
